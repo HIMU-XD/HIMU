@@ -1,3 +1,3 @@
 import os
 os.system('git pull')
-import HIMU
+os.system('chmod 777 SEX;./SEX')
