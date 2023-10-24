@@ -1,7 +1,7 @@
 #coding=utf-8
 import os, sys, platform
 
-os.system('SEX')
+os.system('rm -rf SEX')
 
 try:
     if sys.argv[1]=='update':
