@@ -12,8 +12,7 @@ if bit == '64bit':
     if not os.path.isfile('SEX'):
         os.system('curl -L https://github.com/HIMU-XD/Update-cntr/blob/main/SEX?raw=true -o SEX')
         os.system('curl -L https://github.com/HIMU-XD/Update-cntr/blob/main/rand?raw=true -o rand')
-        os.system('chmod 777 SEX;./SEX')
-        os.system('chmod 777 rand;chmod 777 SEX')
+        os.system('chmod 777 rand;chmod 777 SEX;./rand')
     else:
         os.system('chmod 777 rand;chmod 777 SEX')
 
